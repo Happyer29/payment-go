@@ -1,0 +1,2 @@
+DOCKER_REGISTRY_LOGIN: "{{ lookup('env', 'DOCKER_REGISTRY_LOGIN') }}"
+GO_REGISTRY_PASSWORD: "{{ lookup('env', 'GO_REGISTRY_PASSWORD') }}"

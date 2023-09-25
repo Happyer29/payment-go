@@ -1,0 +1,4 @@
+- name: Prune all unused images
+  community.docker.docker_prune:
+    images: true
+    builder_cache: true

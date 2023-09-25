@@ -1,0 +1,9 @@
+---
+- hosts: cprod
+  gather_facts: true
+  roles:
+    - ping
+    - stop_app
+    - pull_docker_image
+    - start_app
+    - cleanup_docker_images

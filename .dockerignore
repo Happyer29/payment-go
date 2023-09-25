@@ -1,0 +1,7 @@
+.git*
+Dockerfile
+README*
+.env.example
+.editorconfig
+ansible/
+.dockerignore

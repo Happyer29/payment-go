@@ -1,0 +1,37 @@
+{
+    "host": "https://pgapi.million.az/",
+    "phones": [
+        {
+            "prefix": "99470",
+            "number": "6218184"
+        },
+        {
+            "prefix": "99455",
+            "number": "3230888"
+        },
+        {
+            "prefix": "99455",
+            "number": "8879739"
+        },
+        {
+            "prefix": "99455",
+            "number": "4866044"
+        },
+        {
+            "prefix": "99450",
+            "number": "5173626"
+        },
+        {
+            "prefix": "99455",
+            "number": "8892359"
+        }
+    ],
+    "links": {
+        "get_atts_url": "https://pgapi.million.az/core/merchants/M10%20Wallet/attributes/",
+        "check_merchant_url": "https://pgapi.million.az/payments/check-merchant/",
+        "payment_url": "https://pgapi.million.az/payments/payments/",
+        "check_payment_url": "https://million.az/payments/check/",
+        "transaction_info": "https://pgapi.million.az/payments/transactions/"
+    },
+    "card_types": ["Mastercard", "Visa"]
+}

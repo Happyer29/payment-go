@@ -1,0 +1,7 @@
+- name: "deploy development stack from a compose file"
+  community.docker.docker_stack:
+    state: present
+    name: payment
+    compose:
+      - /srv/application/docker-compose.yaml
+    with_registry_auth: yes

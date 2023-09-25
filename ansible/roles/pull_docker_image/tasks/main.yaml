@@ -1,0 +1,13 @@
+- name: Log into go private registry
+  community.docker.docker_login:
+    registry_url: registry.gitlab.com
+    username: "{{ DOCKER_REGISTRY_LOGIN }}"
+    password: "{{ GO_REGISTRY_PASSWORD }}"
+    reauthorize: true
+
+- name: Pull go image
+  community.docker.docker_image:
+    name: registry.gitlab.com/payment4991219/payment:latest
+    source: pull
+    state: present
+    force_source: true

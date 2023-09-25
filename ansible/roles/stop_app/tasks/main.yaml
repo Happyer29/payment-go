@@ -1,0 +1,4 @@
+- name: Remove service payment_payment
+  community.docker.docker_swarm_service:
+    name: payment_payment
+    state: absent
